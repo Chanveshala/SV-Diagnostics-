@@ -1,6 +1,1 @@
-SV-Diagnostics/
-  README.md  Snakefile  config/  envs/  scripts/  rules/  data/  ref/  annotations/  logs/
 
-cd SV-Diagnostics
-micromamba create -n svdiag -c conda-forge -c bioconda snakemake==7.32.3 -y
-micromamba activate svdiag
